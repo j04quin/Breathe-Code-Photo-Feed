@@ -1,0 +1,89 @@
+body {
+  background-color: lightgrey;
+  width: 100%;
+  margin: 5px;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+  padding-right: 170px;
+}
+
+#wrapper {
+  margin: auto;
+  /* border: 1px solid red; */
+  width: 700px;
+  margin: 160px auto 50px auto;
+  min-height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: white;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.divImagen {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+}
+
+.head-article {
+  display: flex;
+  padding: 15px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  color: grey;
+  width: 20%;
+  text-align: right;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+p {
+  font-size: 18px;
+  padding: 20px;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* // fonts */
+
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+}
